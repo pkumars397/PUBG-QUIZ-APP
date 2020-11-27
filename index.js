@@ -78,7 +78,7 @@ for (var i = 0; i < questions.length; i++) {
     play(currentQuestion.question, currentQuestion.answer);
 }
 if (score > highscore.score) {
-    console.log(chalk.bold.Cyan("Wow! You scored Highest score now ") + chalk.green(userName) + chalk.bold.cyan("Send me your screenshot of score,I will update the highscore."));
+    console.log(chalk.bold.cyan("Wow! You scored Highest score now ") + chalk.green(userName) + chalk.bold.cyan("Send me your screenshot of score,I will update the highscore."));
 }
 else {
     console.log(chalk.bgRed
